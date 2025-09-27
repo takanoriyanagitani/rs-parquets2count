@@ -1,0 +1,14 @@
+[package]
+name = "parquets2count"
+version = "0.1.0"
+edition = "2024"
+
+[lints.rust]
+unsafe_code = "forbid"
+
+[lints.clippy]
+unwrap_used = "forbid"
+expect_used = "forbid"
+
+[dependencies.rs-parquets2count]
+path = "../../"
