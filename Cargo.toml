@@ -1,0 +1,24 @@
+[package]
+name = "rs-parquets2count"
+version = "0.1.0"
+edition = "2024"
+
+[lints.rust]
+unsafe_code = "forbid"
+
+[lints.clippy]
+unwrap_used = "forbid"
+expect_used = "forbid"
+
+[dependencies.arrow]
+version = "56.2.0"
+features = ["ipc"]
+
+[dependencies.parquet]
+version = "56"
+default-features = false
+features = [
+	"arrow",
+	"base64",
+	"simdutf8",
+]
