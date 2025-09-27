@@ -3,6 +3,13 @@ name = "rs-parquets2count"
 version = "0.1.0"
 edition = "2024"
 
+description = "Computes the total number of rows of the parquet files."
+license = "Apache-2.0"
+repository = "https://github.com/takanoriyanagitani/rs-parquets2count"
+homepage = "https://github.com/takanoriyanagitani/rs-parquets2count"
+documentation = "https://docs.rs/rs-parquets2count/latest"
+keywords = ["parquet", "arrow", "count"]
+
 [lints.rust]
 unsafe_code = "forbid"
 
